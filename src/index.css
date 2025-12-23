@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #6200ea;
+  --bg-primary: #f4f4f4;
+  --bg-secondary: #ffffff;
+  --text-color: #333;
+} 
+
+.dark-mode {
+  --primary-color: #bb86fc;
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-color: #e0e0e0;
+}
+
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-primary); color: var(--text-color); transition: 0.3s; }
+.app { min-height: 100vh; }
+
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: slideIn 0.5s ease;
+    z-index: 1000;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}

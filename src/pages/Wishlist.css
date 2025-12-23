@@ -1,0 +1,28 @@
+.wishlist-page {
+    padding: 30px;
+    min-height: 80vh;
+}
+
+.wishlist-page h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.empty-wishlist {
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 50px;
+}
+
+.empty-wishlist h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Shop.css wala hi grid layout use kar rahe hain consistent look ke liye */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
