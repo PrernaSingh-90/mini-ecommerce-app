@@ -27,3 +27,33 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Cart Page
+![Cart](screenshots/cart.png)
+
+### Product Page
+![Products](screenshots/products.png)
+
+## 🚀 How to Run Locally
+1. Clone the repository
+   git clone https://github.com/PrernaSingh-90/mini-ecommerce-app.git
+
+2. Install dependencies
+   npm install
+
+3. Start the project
+   npm run dev
+
+   ## 📚 What I Learned
+- Component-based architecture in React
+- State management using React hooks
+- Passing props between components
+- Conditional rendering
+- Basic cart logic implementation
+- Writing clean and reusable code
+
