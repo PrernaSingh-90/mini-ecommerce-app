@@ -27,6 +27,7 @@ const Shop = () => {
             <option value="All">All</option>
             <option value="Electronics">Electronics</option>
             <option value="Fashion">Fashion</option>
+            <option value="Beauty">Beauty</option>
             <option value="Accessories">Accessories</option>
           </select>
         </div>

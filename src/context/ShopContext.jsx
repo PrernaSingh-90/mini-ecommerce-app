@@ -7,6 +7,9 @@ import watchImg from '../assets/images/watch.jpg';
 import jacketImg from '../assets/images/jacket.jpg';
 import bagImg from '../assets/images/bag.jpg';
 import mouseImg from '../assets/images/mouse.jpg';
+import eyeshadowImg from '../assets/images/eyeshadow.png';
+import lipstickImg from '../assets/images/lipstick.png';
+
 
 export const ShopContext = createContext();
 
@@ -59,6 +62,22 @@ const PRODUCTS = [
     category: "Electronics",
     rating: 4.6,
     image: mouseImg
+  },
+  {
+    id: 7,
+    name: "Eyeshadow Palette",
+    price: 1299,
+    category: "Beauty",
+    rating: 4.5,
+    image: eyeshadowImg
+  },
+  {
+    id: 8,
+    name: "Lipstick Set",
+    price: 999,
+    category: "Beauty",
+    rating: 4.3,
+    image: lipstickImg
   },
 ];
 
